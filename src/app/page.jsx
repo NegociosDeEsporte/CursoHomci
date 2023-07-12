@@ -8,6 +8,7 @@ import MarceloHomci from "./components/marceloHomci";
 import Cadastro from "./components/cadastro";
 import Footer from "./components/footer";
 import BackToTop from "./components/Backtotop";
+import Price from "./components/price";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <ConteudoProgramatico />
       <FinalCurso />
       <MarceloHomci />
+      <Price/>
       <Cadastro />
       <Footer />
     </div>

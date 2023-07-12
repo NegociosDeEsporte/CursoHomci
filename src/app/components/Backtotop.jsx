@@ -19,7 +19,7 @@ export default function BackToTop() {
   }, []);
 
   return (
-    <div>
+    <div className="z-50">
       {isVisible && <div>
         <a href="#inicio" className='animate-bounce fixed bottom-2 right-5 text-azul-claro transition ease-in-out duration-300 rounded-full md:z-10'>
           <FontAwesomeIcon icon={faArrowAltCircleUp} className=' h-10 hover:text-white rounded-full transition ease-in-out duration-300' />
