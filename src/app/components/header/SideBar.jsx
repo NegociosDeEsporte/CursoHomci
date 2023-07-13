@@ -48,6 +48,13 @@ export default function Sidebar() {
         >
           <p>Marcelo Homci</p>
         </a>
+        <a
+          href="#garantaSuaVaga"
+          className=" text-white mt-5 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-base font-bold shadow-lg duration-300 ease-in-out hover:text-zinc-400"
+          onClick={() => setShowSidebar(!showSidebar)}
+        >
+          <p>Garanta sua vaga</p>
+        </a>
         <div className='flex items-center justify-center gap-5 mt-16'>
           <Link href='https://instagram.com/negociosdeesporte' target="blank" onClick={() => setShowSidebar(!showSidebar)} ><FontAwesomeIcon icon={faInstagram} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
           <Link href='https://www.facebook.com/negociosdeesporte?mibextid=ZbWKwL' target="blank"onClick={() => setShowSidebar(!showSidebar)} > <FontAwesomeIcon icon={faFacebook} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
