@@ -13,7 +13,7 @@ import Price from "./components/price";
 export default function Home() {
   return (
     <div>
-      {/* <Pin />  */}
+      <Pin />
       <BackToTop />
       <Header />
       <Main />
