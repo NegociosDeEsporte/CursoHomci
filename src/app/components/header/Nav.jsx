@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import logo from '../../../../public/logo.png'
 import Image from 'next/image'
-import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faFacebook, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Button from '../Button'
 export default function Nav() {
@@ -22,9 +22,10 @@ export default function Nav() {
           </p>
         </div>
         <div className='flex items-center justify-center gap-5 mr-5'>
-          <Link href=''><FontAwesomeIcon icon={faInstagram} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
-          <Link href=''> <FontAwesomeIcon icon={faFacebook} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
-          <Link href=''> <FontAwesomeIcon icon={faTwitter} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
+          <Link href='https://instagram.com/negociosdeesporte' target="blank"><FontAwesomeIcon icon={faInstagram} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
+          <Link href='https://www.facebook.com/negociosdeesporte?mibextid=ZbWKwL' target="blank"> <FontAwesomeIcon icon={faFacebook} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
+          <Link href='https://twitter.com/NegocioEsportes' target="blank"> <FontAwesomeIcon icon={faTwitter} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
+          <Link href="https://wa.me/553599689766" target="blank"> <FontAwesomeIcon icon={faWhatsapp} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
         </div>
         <Button/>
       </div>

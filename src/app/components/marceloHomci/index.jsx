@@ -9,8 +9,8 @@ export default function MarceloHomci() {
     <div id='marcelo' className="bg-main bg-cover flex items-center flex-col py-20 border-t border-white ">
       <Image src={traco} height={5} className='h-px md:h-auto' />
       <div className="flex items-center gap-1 mt-5">
-        <h2 className="font-orbitron text-white text-lg md:text-4xl font-bold">Prof.</h2>
-        <h2 className="font-orbitron text-amarelo text-lg md:text-4xl font-bold">Marcelo Homci</h2>
+        <h2 className="font-orbitron text-white text-lg md:text-4xl font-bold font-orbirtron">Prof.</h2>
+        <h2 className="font-orbitron text-amarelo text-lg md:text-4xl font-bold font-orbirtron">Marcelo Homci</h2>
       </div>
       <Image src={homci1} height={200} className='md:hidden rounded-full'/>
       <div className='flex justify-center items-center flex-col md:justify-start md:items-start my-10 bg-fundoHomci1 z-20 relative  md:text-sm'>

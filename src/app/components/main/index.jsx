@@ -7,8 +7,8 @@ export default function Main() {
     <div id='sobre' className="bg-main bg-cover flex items-center flex-col pt-20 pb-20 border-t border-white">
       <Image src={traco} height={5} className='h-px md:h-auto'/>
         <div className="flex items-center gap-1 mt-5">
-          <h2 className="font-orbitron text-white text-lg md:text-4xl font-bold">Sobre</h2>
-          <h2 className="font-orbitron text-amarelo text-lg md:text-4xl font-bold">o curso</h2>
+          <h2 className="font-orbitron text-white text-lg md:text-4xl font-bold font-orbirtron">Sobre</h2>
+          <h2 className="font-orbitron text-amarelo text-lg md:text-4xl font-bold font-orbirtron">o curso</h2>
         </div>
         <div className='my-10'>
           <p className='text-white md:absolute md:w-[450px] text-justify text-sm md:mt-20 px-5 md:px-5 md:p-5'>

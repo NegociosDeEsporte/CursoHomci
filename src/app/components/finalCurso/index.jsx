@@ -8,8 +8,8 @@ export default function FinalCurso() {
     <div className="bg-main bg-cover flex items-center flex-col py-20 px-5 border-t border-white">
       <Image src={traco} height={5} className='h-px md:h-auto'/>
       <div className="flex flex-col md:flex-row items-center gap-1 mt-5">
-        <h2 className="font-orbitron text-white text-lg md:text-4xl font-bold">Ao final do curso,</h2>
-        <h2 className="font-orbitron text-amarelo text-lg md:text-4xl font-bold">Você estará apto a:</h2>
+        <h2 className="font-orbitron text-white text-lg md:text-4xl font-bold font-orbirtron">Ao final do curso,</h2>
+        <h2 className="font-orbitron text-amarelo text-lg md:text-4xl font-bold font-orbirtron">Você estará apto a:</h2>
       </div>
       <div className='my-10'>
       </div>

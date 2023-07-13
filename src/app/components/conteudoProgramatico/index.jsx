@@ -8,8 +8,8 @@ export default function ConteudoProgramatico() {
     <div className="bg-main bg-cover flex items-center flex-col py-20 border-t border-white">
       <Image src={traco} height={5} className='h-px md:h-auto' />
       <div className="flex items-center gap-1 mt-5">
-        <h2 className="font-orbitron text-white text-lg md:text-4xl font-bold">Conteúdo</h2>
-        <h2 className="font-orbitron text-amarelo text-lg md:text-4xl font-bold">programático</h2>
+        <h2 className="font-orbitron text-white text-lg md:text-4xl font-bold font-orbirtron">Conteúdo</h2>
+        <h2 className="font-orbitron text-amarelo text-lg md:text-4xl font-bold font-orbirtron">programático</h2>
       </div>
       <div className='my-10'>
       </div>
