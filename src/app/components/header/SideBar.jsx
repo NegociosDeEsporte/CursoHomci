@@ -27,7 +27,7 @@ export default function Sidebar() {
         className={`text-white fixed right-0 top-0 z-40 flex h-full w-[70vw]  flex-col bg-degrade transition-all duration-1000 ease-in-out ${showSidebar ? 'translate-x-0 ' : 'translate-x-full'
           }`}
       >
-       
+
         <button
           className="fixed right-10 top-6 z-50 flex cursor-pointer items-center text-2xl text-vermelho"
           onClick={() => setShowSidebar(!showSidebar)}
@@ -37,20 +37,22 @@ export default function Sidebar() {
         <a
           href="#sobre"
           className="mt-20 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-base font-bold shadow-lg duration-300 ease-in-out hover:text-zinc-400"
+          onClick={() => setShowSidebar(!showSidebar)}
         >
           <p>Sobre</p>
         </a>
         <a
           href="#marcelo"
           className=" text-white mt-5 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-base font-bold shadow-lg duration-300 ease-in-out hover:text-zinc-400"
+          onClick={() => setShowSidebar(!showSidebar)}
         >
           <p>Marcelo Homci</p>
         </a>
         <div className='flex items-center justify-center gap-5 mt-16'>
-          <Link href='https://instagram.com/negociosdeesporte' target="blank"><FontAwesomeIcon icon={faInstagram} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
-          <Link href='https://www.facebook.com/negociosdeesporte?mibextid=ZbWKwL' target="blank"> <FontAwesomeIcon icon={faFacebook} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
-          <Link href='https://twitter.com/NegocioEsportes' target="blank"> <FontAwesomeIcon icon={faTwitter} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
-          <Link href="https://wa.me/553599689766" target="blank"> <FontAwesomeIcon icon={faWhatsapp} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
+          <Link href='https://instagram.com/negociosdeesporte' target="blank" onClick={() => setShowSidebar(!showSidebar)} ><FontAwesomeIcon icon={faInstagram} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
+          <Link href='https://www.facebook.com/negociosdeesporte?mibextid=ZbWKwL' target="blank"onClick={() => setShowSidebar(!showSidebar)} > <FontAwesomeIcon icon={faFacebook} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
+          <Link href='https://twitter.com/NegocioEsportes' target="blank" onClick={() => setShowSidebar(!showSidebar)}> <FontAwesomeIcon icon={faTwitter} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
+          <Link href="https://wa.me/553599689766" target="blank" onClick={() => setShowSidebar(!showSidebar)}> <FontAwesomeIcon icon={faWhatsapp} className="h-7 text-vermelho hover:text-amarelo transition-all duration-300" /></Link>
         </div>
         <div className='flex justify-center items-center m-10'>
           <Image src={logo} alt='logo da negocios de esporte' width={300} />
