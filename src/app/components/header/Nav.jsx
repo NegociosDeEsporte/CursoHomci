@@ -7,7 +7,7 @@ import Button from '../Button'
 export default function Nav() {
   return (
     <div id='inicio' className='p-2 md:py-10 md:pr-20 flex justify-between items-center w-screen z-20 '>
-      <Image src={logo} alt='logo da empresa negocios de esporte' className='md:ml-10 w-40 md:w-44' />
+      <Image src={logo} alt='logo da empresa negocios de esporte' className='md:ml-10 w-32 md:w-44' />
       <div className='text-white md:flex hidden'>
         <div className='font-bold flex text-xl justify-center items-center mr-20'>
         <p className="relative group mx-5">
