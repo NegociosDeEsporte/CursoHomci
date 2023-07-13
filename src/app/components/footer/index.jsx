@@ -12,9 +12,9 @@ export default function Footer() {
     <div className="bg-degrade space-y-10 border-t border-white">
       <div className='flex flex-col md:flex-row justify-center items-center py-10 '>
         <div className='flex justify-center items-center z-20'>
-          <a href="#inicio"> <Image src={logo} width={200} /></a>
+          <a href="#inicio"> <Image src={logo} width={150} /></a>
         </div>
-        <div className=' pt-14 md:pt-0 text-center flex flex-col md:flex-row justify-center text-white md:w-[650px] h-10 z-20'>
+        <div className=' pt-14 md:pt-0 text-center flex flex-col md:flex-row justify-center text-white md:w-[610px] h-10 z-20'>
           <a href='#sobre' className='hover:text-amarelo transition-all duration-300 px-5 h-10 '>Sobre o curso</a>
           <div className='w-px h-5 md:border-r border-white'></div>
           <a href='#marcelo' className='hover:text-amarelo transition-all duration-300 px-5 h-10 '>Marcelo Homci</a>

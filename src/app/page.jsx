@@ -14,14 +14,14 @@ export default function Home() {
   return (
     <div>
       <Pin />
-      <BackToTop/>
+      <BackToTop />
       <Header />
       <Main />
       <Beneficios />
       <ConteudoProgramatico />
       <FinalCurso />
       <MarceloHomci />
-      <Price/>
+      <Price />
       <Cadastro />
       <Footer />
     </div>
