@@ -22,9 +22,8 @@ export default function Cadastro() {
           <h2 className='text-sm w-44 md:w-72 font-bold'>"Você está a um passo de alcançar sua melhor versão no esporte! Não espere mais, envie uma mensagem pelo WhatsApp e comece sua jornada de transformação rumo às suas metas esportivas. Estou aqui para guiá-lo(a) rumo à vitória!"</h2>
           <Link href="https://wa.me/553599689766" target="blank">
             <button className='flex justify-center items-center bg-green-600 hover:bg-green-500 mt-10 text-2xl py-2 px-5 border border-white rounded-xl'>
-              Whatsapp
-              <FontAwesomeIcon
-          icon={faWhatsapp}
+              WhatsApp
+              <FontAwesomeIcon icon={faWhatsapp}
           className=" ml-2 rounded-full h-8"
         />
             </button>
