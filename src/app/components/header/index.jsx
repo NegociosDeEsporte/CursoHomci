@@ -5,14 +5,14 @@ import Sidebar from './SideBar'
 import Button from '../Button'
 export default function Header() {
   return (
-    <div className="text-sm bg-header bg-cover flex flex-col md:items-center h-[600px] md:h-[610px]">
+    <div className="text-sm bg-header bg-cover flex flex-col md:items-center h-[450px] md:h-[610px]">
       <Nav />
       <Sidebar />
-      <div className='md:w-[1200px] md:pl-0 h-[600px] flex md:block md:justify-start  md:items-start'>
-        <div className='flex md:hidden justify-end items-end relative w-56 md:w-auto'>
+      <div className='md:w-[1200px] md:pl-0 h-[450px] flex md:block md:justify-start  md:items-start'>
+        <div className='flex md:hidden justify-end items-end relative w-44 md:w-auto'>
           <Image src={homci} alt='Foto do Marcelo Homci' width={400} />
         </div>
-        <div className='flex flex-col justify-end items-end mt-16 md:justify-start md:items-start md:ml-48  md:h-96 w-screen md:w-[820px] absolute pr-5 md:pr-5'>
+        <div className='flex flex-col justify-end items-end md:justify-start md:items-start md:ml-48  md:h-96 w-screen md:w-[820px] absolute pr-5 md:pr-5'>
           <h2 className='text-white text-xl md:text-5xl font-orbirtron mt-10'>Formação em</h2>
           <h1 className='text-amarelo text-2xl md:text-7xl font-bold font-orbirtron'>Coaching Esportivo</h1>
           <div className='text-white my-10 border-l flex justify-end items-end  border-white text-xs md:text-sm pl-2 md:pl-0'>
