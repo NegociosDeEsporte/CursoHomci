@@ -39,7 +39,7 @@ export default function Sidebar() {
           className="mt-20 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-base font-bold shadow-lg duration-300 ease-in-out hover:text-zinc-400"
           onClick={() => setShowSidebar(!showSidebar)}
         >
-          <p>Sobre</p>
+          <p>Sobre o curso</p>
         </a>
         <a
           href="#marcelo"
